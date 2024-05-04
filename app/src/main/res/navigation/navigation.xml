@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/simpleCalFragment">
+
+    <fragment
+        android:id="@+id/simpleCalFragment"
+        android:name="com.example.job1.SimpleCalFragment"
+        android:label="fragment_simple_cal"
+        tools:layout="@layout/fragment_simple_cal" >
+        <action
+            android:id="@+id/action_simpleCalFragment_to_bmiCalFragment"
+            app:destination="@id/bmiCalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bmiCalFragment"
+        android:name="com.example.job1.BmiCalFragment"
+        android:label="fragment_bmi_cal"
+        tools:layout="@layout/fragment_bmi_cal" >
+        <action
+            android:id="@+id/action_bmiCalFragment_to_tempCalFragment"
+            app:destination="@id/tempCalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tempCalFragment"
+        android:name="com.example.job1.TempCalFragment"
+        android:label="fragment_temp_cal"
+        tools:layout="@layout/fragment_temp_cal" />
+</navigation>

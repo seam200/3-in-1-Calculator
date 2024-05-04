@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Black2">#233649</color>
+    <color name="Yellow">#FEE715</color>
+    <color name="seek_bar_back_color">#65B2F6</color>
+    <color name="DarkBlue">#01359C</color>
+    <color name="Green">#37FF00</color>
+</resources>
